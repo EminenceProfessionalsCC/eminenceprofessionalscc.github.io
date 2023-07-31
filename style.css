@@ -1,74 +1,144 @@
-*{
-margin: 0;
-padding: 0;
-}
-.container{
-        height: 100vh;
-        width: 100%;
-        background-color: rgb(176, 218, 255);
-        background-position: center;
-        background-size: cover;
-        padding-left: 5%;
-        padding-right: 5%;
-        box-sizing: border-box;
-        position: relative;
-        
-}
-.navbar{
-
-    width: 100%;
-    height: 15vh;
-    margin: auto;
-    display: flex;
-    align-items: center;
+/* Reset some default styles to ensure consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
 }
 
-.logo{
-    width: 80px;
-    cursor:pointer;
-
-}
-nav{
-flex: 1;
-padding-left: 40px;
-}
-nav ul li{
-
-    display:inline-block;
-    list-style: none;
-    margin: 0px 20px;
-
-}
-nav ul li a{
-
-    text-decoration: none;
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
     color: #333;
-
-}
-.content h1 {
-    font-size: 60px;
-    font-weight: 100;
-    margin-top: 24px;
-    margin-bottom: 15px
-    color: #232d60;
-}
-.content p {
-    font-size: 20px;
-      color: #313238;
 }
 
-.content{
-    margin-left: 10%;
-    margin-top: 10%;
-}
-.content .btn{
-    display: inline—block;
-    background: linear-gradient(45deg, #87adfe, #ff77cd );
-    border-radius: 6px;
-    padding: l0px 20px;
-    box-sizing: border-box;
-    text-decoration: none;
+header {
+    background-color: #007bff;
     color: #fff;
-    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);,
+    padding: 20px;
+    text-align: center;
 }
 
+.logo {
+    margin-bottom: 10px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.welcome {
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    /* Add hover effect */
+    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out;
+}
+
+/* Bold the Home, About, and Contact links */
+nav a[href="#"] {
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffdf00; /* Change the color on hover */
+    font-size: 18px; /* Enlarge the text on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+.sections-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    flex-basis: calc(50% - 20px); /* Adjusted to 50% for two sections */
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.section p {
+    color: #555;
+}
+
+/* Add spacing between sentences starting with bullet points */
+.section li {
+    margin-bottom: 5px; /* Adjust the spacing as needed */
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        margin: 0 auto 10px; /* Center the logo horizontally */
+    }
+
+    .welcome {
+        margin-bottom: 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack navigation links vertically */
+    }
+
+    nav li {
+        margin-right: 0; /* Remove right margin for each list item */
+        margin-bottom: 10px; /* Add bottom margin for spacing */
+    }
+
+    main {
+        padding: 10px; /* Reduce padding for content */
+    }
+
+    .sections-container {
+        display: block; /* Display sections in a single column */
+    }
+
+    .section {
+        flex-basis: 100%; /* Take up the full width */
+    }
+}
