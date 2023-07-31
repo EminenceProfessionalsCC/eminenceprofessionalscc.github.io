@@ -2,6 +2,7 @@
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
+    
 }
 
 body {
@@ -75,7 +76,7 @@ main {
     align-items: center; /* Center the content horizontally */
     justify-content: center; /* Center the content vertically */
     min-height: 50vh; /* Set the minimum height of main to full viewport height */
-    padding: 30px; /* Add padding to keep content away from header and footer */
+    padding: 50px; /* Add padding to keep content away from header and footer */
     box-sizing: border-box; /* Include padding in the total width and height of main */
     text-align: center;
    
@@ -107,24 +108,27 @@ main {
     margin-bottom: 20px;
     background-color: #fff;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 24px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: left; /* Reset the text alignment for section contents */
+    
 }
 
 .section h2 {
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 10px;
     color: #007bff;
     text-align: center;
+    margin-bottom: 30px; /* Remove the bottom margin */
     
 }
 
 .section h3 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 
     text-align: center;
+    
     
 }
 
@@ -227,11 +231,86 @@ footer {
     font-weight: bold;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     margin-right: 10px;
-    margin-left: 15px;
+    margin-left: 10px;
     font-size: 80%; /* Set the font size to 80% of the default size */
 }
 
 .youtube-button:hover {
     background-color: #432121;
     color: #ffffff;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #bfffb2;
+    color: #000000;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 80%; /* Set the font size to 80% of the default size */
+}
+
+.whatsapp-button:hover {
+    background-color: #284321;
+    color: #ffffff;
+}
+
+.tgcontact-button {
+    display: inline-block;
+    background-color: #bfdeff;
+    color: #000000;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    margin-right: 10px;
+    margin-left: 0px;
+    font-size: 80%; /* Set the font size to 80% of the default size */
+}
+
+.tgcontact-button:hover {
+    background-color: #282143;
+    color: #ffffff;
+}
+
+.home-section {
+    text-align: center; /* Center the text within the home section */
+    max-width: 800px; /* Set a maximum width for the content */
+    padding: 10px; /* Add padding to the home section container */
+    flex-grow: 0; /* Let the home section take up the available vertical space */
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px; /* Remove the bottom margin */
+}
+
+.home-section-c {
+    text-align: center;
+    max-width: 800px;
+    text-align: center;
+    
+}
+.home-section-c .section-c h2 {
+    margin-bottom: 15px; /* Add margin between sentences */
+    
+}
+
+.home-section-c .section-c p {
+    margin-bottom: 20px; /* Add margin between sentences */
+    
+}
+
+
+.section-c {
+    margin-bottom: 0px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Reset the text alignment for section contents */
+    
 }
