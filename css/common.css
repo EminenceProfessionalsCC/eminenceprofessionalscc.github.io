@@ -75,26 +75,31 @@ main {
     align-items: center; /* Center the content horizontally */
     justify-content: center; /* Center the content vertically */
     min-height: 100vh; /* Set the minimum height of main to full viewport height */
-    padding: 20px; /* Add padding to keep content away from header and footer */
+    padding: 30px; /* Add padding to keep content away from header and footer */
     box-sizing: border-box; /* Include padding in the total width and height of main */
+    text-align: center;
+   
 }
 
 .home-section {
     text-align: center; /* Center the text within the home section */
     max-width: 800px; /* Set a maximum width for the content */
-    padding: 20px; /* Add padding to the home section container */
-    flex-grow: 1; /* Let the home section take up the available vertical space */
+    padding: 10px; /* Add padding to the home section container */
+    flex-grow: 0; /* Let the home section take up the available vertical space */
     align-items: center;
     text-align: center;
+    margin-bottom: 100px; /* Remove the bottom margin */
 }
 
 .home-section {
     text-align: center;
-    max-width: 600px;
+    max-width: 800px;
+    text-align: center;
 }
 
 .home-section .section p {
     margin-bottom: 10px; /* Add margin between sentences */
+    
 }
 
 
@@ -111,10 +116,21 @@ main {
     font-size: 24px;
     margin-bottom: 10px;
     color: #007bff;
+    text-align: center;
+    
+}
+
+.section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+
+    text-align: center;
+    
 }
 
 .section p {
     color: #555;
+    margin-bottom: 15px;
 }
 
 footer {
@@ -126,6 +142,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
+    
 }
 
 /* Mobile view */
@@ -205,11 +222,12 @@ footer {
     background-color: #d84f4f;
     color: #ffffff;
     padding: 10px 25px;
-    border-radius: 15px;
+    border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     margin-right: 10px;
+    margin-left: 15px;
     font-size: 80%; /* Set the font size to 80% of the default size */
 }
 
