@@ -2,6 +2,8 @@
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
     
 }
 
@@ -10,6 +12,7 @@ body {
     line-height: 1.6;
     background-color: #f5f5f5;
     color: #333;
+    background-image: url(bg.png);
 }
 
 .welcome-header {
@@ -23,6 +26,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .logo {
@@ -66,8 +70,8 @@ nav a[href="#"] {
 }
 
 nav a:hover {
-    color: #ffdf00; /* Change the color on hover */
-    font-size: 20px; /* Enlarge the text on hover */
+    color: #c4f6ff; /* Change the color on hover */
+    font-size: 22px; /* Enlarge the text on hover */
 }
 
 main {
@@ -89,7 +93,10 @@ main {
     flex-grow: 0; /* Let the home section take up the available vertical space */
     align-items: center;
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 50px; /* Remove the bottom margin */
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 .home-section {
@@ -116,6 +123,7 @@ main {
 
 .section h2 {
     font-size: 26px;
+    font-weight: 300;
     margin-bottom: 10px;
     color: #007bff;
     text-align: center;
@@ -126,7 +134,7 @@ main {
 .section h3 {
     font-size: 18px;
     margin-bottom: 30px;
-
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     
     
@@ -135,6 +143,9 @@ main {
 .section p {
     color: #555;
     margin-bottom: 15px;
+    
+   
+
 }
 
 footer {
@@ -146,6 +157,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
     
 }
 
@@ -198,6 +210,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .join-text {
@@ -206,19 +219,20 @@ footer {
 
 .join-button {
     display: inline-block;
-    background-color: #7fccff;
-    color: #000;
+    background-color: #ffffff;
+    color: #007bff;
     padding: 8px 20px;
     border-radius: 24px;
     text-decoration: none;
     font-weight: bold;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, font-size 0.3s ease-in-out;
     margin-left: 10px; /* Add margin to move the button to the right */
 }
 
 .join-button:hover {
-    background-color: #ffffff;
-    color: #1d2b34;
+    background-color: #dbedff;
+    color: #007bff;  
+    font-size: 20px; /* Enlarge the text on hover */
 }
 
 .youtube-button {
@@ -229,15 +243,18 @@ footer {
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, font-size 0.3s ease-in-out;
     margin-right: 10px;
     margin-left: 10px;
     font-size: 80%; /* Set the font size to 80% of the default size */
+    font-family: 'Poppins', sans-serif;
 }
 
 .youtube-button:hover {
-    background-color: #432121;
+    background-color: #c00606;
     color: #ffffff;
+    font-size: 20px; /* Enlarge the text on hover */
+    
 }
 
 .whatsapp-button {
@@ -248,15 +265,16 @@ footer {
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, font-size 0.3s ease-in-out;
     margin-right: 10px;
     margin-left: 10px;
     font-size: 80%; /* Set the font size to 80% of the default size */
+    font-family: 'Poppins', sans-serif;
 }
 
 .whatsapp-button:hover {
-    background-color: #284321;
-    color: #ffffff;
+    background-color: #28a908;
+    color: #ffffff;  font-size: 20px; /* Enlarge the text on hover */
 }
 
 .tgcontact-button {
@@ -267,15 +285,16 @@ footer {
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, font-size 0.3s ease-in-out;
     margin-right: 10px;
     margin-left: 0px;
     font-size: 80%; /* Set the font size to 80% of the default size */
+    font-family: 'Poppins', sans-serif;
 }
 
 .tgcontact-button:hover {
-    background-color: #282143;
-    color: #ffffff;
+    background-color: #381f9f;
+    color: #ffffff;  font-size: 20px; /* Enlarge the text on hover */
 }
 
 .home-section {
@@ -292,6 +311,7 @@ footer {
     text-align: center;
     max-width: 800px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
     
 }
 .home-section-c .section-c h2 {
@@ -315,4 +335,70 @@ footer {
 
     margin-bottom: 60px;
     
+}
+
+/* About section */
+
+.sectionabout {
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Reset the text alignment for section contents */
+    
+}
+
+.sectionabout h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 30px; /* Remove the bottom margin */
+    
+}
+
+.sectionabout h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+    
+}
+
+.sectionabout p {
+    color: #555;
+    margin-bottom: 15px;
+   padding: 10px;
+}
+
+.sectionabout ul {
+    color: #555;
+    margin-bottom: 15px;
+   padding: 15px;
+   margin-left: 15px;
+}
+
+
+.nav-button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #007bff;
+    padding: 5px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, font-size 0.3s ease-in-out;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 100%; /* Set the font size to 80% of the default size */
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-button:hover {
+    background-color: #dbedff;
+    color: #007bff;  font-size: 21px; /* Enlarge the text on hover */
 }
