@@ -17,6 +17,7 @@ body {
 
 .welcome-header {
     background-color: #007bff;
+    
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -107,8 +108,17 @@ main {
 
 .home-section .section p {
     margin-bottom: 10px; /* Add margin between sentences */
-    
+    padding: 5px;
+    margin-left: 5px;
 }
+
+.home-section .section li {
+    margin-bottom: 15px; /* Add margin between sentences */
+    padding: 5px;
+    margin-left: 24px;
+}
+
+.home-section ul li {color:rgb(0, 0, 0);}
 
 
 .section {
@@ -130,6 +140,7 @@ main {
     margin-bottom: 30px; /* Remove the bottom margin */
     
 }
+
 
 .section h3 {
     font-size: 18px;
@@ -290,6 +301,7 @@ footer {
     margin-left: 0px;
     font-size: 80%; /* Set the font size to 80% of the default size */
     font-family: 'Poppins', sans-serif;
+
 }
 
 .tgcontact-button:hover {
@@ -323,6 +335,7 @@ footer {
     margin-bottom: 20px; /* Add margin between sentences */
     
 }
+
 
 
 .section-c {
@@ -382,6 +395,12 @@ footer {
    margin-left: 15px;
 }
 
+.sectionabout li {
+   
+   padding: 8px;
+  
+}
+
 
 .nav-button {
     display: inline-block;
@@ -401,4 +420,46 @@ footer {
 .nav-button:hover {
     background-color: #dbedff;
     color: #007bff;  font-size: 21px; /* Enlarge the text on hover */
+}
+
+
+.sectionabout h3 {
+    margin-top: 15px;
+    margin-bottom: 15px; /* Add margin between sentences */
+    align-items: center;
+    text-align: center;
+  
+    font-family: 'Poppins', sans-serif;
+}
+
+.sectionabout h6 {
+    margin-top: 15px;
+    margin-bottom: 15px; /* Add margin between sentences */
+    align-items: center;
+    text-align: center;
+   
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+
+.sectionabout h4 {
+    margin-top: -10px;
+    margin-bottom: 15px; /* Add margin between sentences */
+    align-items: center;
+    text-align: center;
+  
+    font-family: 'Poppins', sans-serif;
+    font-size:large;
+}
+
+
+.sectionabout h5 {
+    margin-top: 10px;
+    margin-bottom: 15px; /* Add margin between sentences */
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
 }
